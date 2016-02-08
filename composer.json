@@ -1,13 +1,11 @@
 {
-    "name": "sensio/generator-bundle",
-    "description": "This bundle generates code for you",
-    "keywords": [],
-    "type": "symfony-bundle",
+    "name": "startupz/oro-generator-bundle",
+    "description": "This bundle generates Oro bundle for you",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
+            "name": "Julien VINAI",
+            "email": "julien.vinai@gmail.com"
         }
     ],
     "require": {
@@ -22,15 +20,10 @@
         "twig/twig": "~1.18"
     },
     "autoload": {
-        "psr-4": { "Sensio\\Bundle\\GeneratorBundle\\": "" },
+        "psr-4": { "Oro\\Bundle\\GeneratorBundle\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
     },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
-    }
+    "minimum-stability": "dev"
 }
